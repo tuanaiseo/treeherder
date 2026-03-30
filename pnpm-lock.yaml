@@ -115,8 +115,8 @@ importers:
         specifier: 0.20.0
         version: 0.20.0(react@18.3.1)
       react-hot-keys:
-        specifier: 2.7.3
-        version: 2.7.3(@babel/runtime@7.28.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 3.0.0
+        version: 3.0.0(@babel/runtime@7.28.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-lazylog:
         specifier: 4.5.3
         version: 4.5.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3195,8 +3195,8 @@ packages:
     resolution: {integrity: sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==}
     engines: {node: '>=0.10.0'}
 
-  hotkeys-js@3.13.15:
-    resolution: {integrity: sha512-gHh8a/cPTCpanraePpjRxyIlxDFrIhYqjuh01UHWEwDpglJKCnvLW8kqSx5gQtOuSsJogNZXLhOdbSExpgUiqg==}
+  hotkeys-js@4.0.2:
+    resolution: {integrity: sha512-fJNEO88zWwoXEGJuvjSbunKSexaT1VbC1S9wIzMA2BfOZ5KPiQj2wTqxDeXd110/4akiAuQIsE3TSbNvGgCyQg==}
 
   hpack.js@2.1.6:
     resolution: {integrity: sha512-zJxVehUdMGIKsRaNt7apO2Gqp0BdqW5yaiGHXXmbpvxgBYVZnAql+BJb4RO5ad2MgpbZKn5G6nMnegrH1FcNYQ==}
@@ -4469,8 +4469,8 @@ packages:
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
 
-  react-hot-keys@2.7.3:
-    resolution: {integrity: sha512-OoX1kTookqQx/OBXBgBLQCANpw3KGUcJNOl+MNv8xJYyH/Rojv+jTjQbksDGQMIOWVfvLqOZi/ZVcVdsWUAUWg==}
+  react-hot-keys@3.0.0:
+    resolution: {integrity: sha512-lcP0imYdnd8kLj9YE4TpgIoJp+wfJ+5WBoSZHryNCGzhavKmf5zf1rQsQ+z1tsbckc1x4dZNkaZLu2v3N+pShQ==}
     peerDependencies:
       '@babel/runtime': '>=7.10.0'
       react: '>=16.9.0'
@@ -9002,7 +9002,7 @@ snapshots:
     dependencies:
       parse-passwd: 1.0.0
 
-  hotkeys-js@3.13.15: {}
+  hotkeys-js@4.0.2: {}
 
   hpack.js@2.1.6:
     dependencies:
@@ -10512,11 +10512,10 @@ snapshots:
       prop-types: 15.8.1
       react: 18.3.1
 
-  react-hot-keys@2.7.3(@babel/runtime@7.28.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-hot-keys@3.0.0(@babel/runtime@7.28.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.28.6
-      hotkeys-js: 3.13.15
-      prop-types: 15.8.1
+      hotkeys-js: 4.0.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
